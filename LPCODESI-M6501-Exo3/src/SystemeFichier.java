@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 
 public class SystemeFichier {
-	private Repertoire racine;
+	private ArrayList<Repertoire> racine;
 
 	public SystemeFichier() {
 		super();
-		this.racine = new Repertoire();
+		this.racine = new ArrayList<Repertoire>();
 	}
 }
